@@ -9,7 +9,7 @@ public class Quadratic {
         int b = sc.nextInt();
         System.out.print("Enter c : ");
         int c = sc.nextInt();
-        int delta = b * b - 4 * b * c;
+        int delta = b * b - 4 * a * c;
         double root1 = (-b + Math.sqrt(delta)) / (2 * a);
         double root2 = (-b - Math.sqrt(delta)) / (2 * a);
         System.out.println("Root 1 of x = " + root1);
